@@ -12,7 +12,7 @@
     - name: install python
       raw:
         apt-get update -q && \
-        DEBIAN_FRONTEND=noninteractive apt-get install -q -y python
+        DEBIAN_FRONTEND=noninteractive apt-get install -q -y python2-minimal python2 dh-python python-is-python3
       environment: {}
       when: '"Ubuntu" in os_release.stdout'
 

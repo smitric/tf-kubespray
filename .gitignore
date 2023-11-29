@@ -5,3 +5,5 @@ terraform.tfstate.backup
 terraform.tfstate.*.backup
 config/
 ansible/kubespray/
+.terraform*
+*.terra
